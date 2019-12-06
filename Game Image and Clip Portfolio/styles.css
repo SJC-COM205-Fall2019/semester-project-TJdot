@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Space+Mono:400,700&display=swap');
+
+.content-container {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1024px;
+	background-color: #BD2528;
+	font-size: x-large;
+}
+.content {
+
+}
+img {
+	margin: 5px 23px;
+	padding-top: 25;
+	padding-right: 25;
+	padding-left: 25;
+	border: 2px solid #000000;
+}
+header {
+    text-align: center;
+}
+
+
+
+body {
+	background-color: #000000;
+}
+.page-container {
+	margin: 0 auto;
+	width: 1000px;
+	background-color: #5488D4;
+}
+h1 {
+	background-color: #CED2D8;
+	font-family: 'Space Mono', monospace;
+	font-size: 30px;
+	border: 2px solid #000000;
+}
+h2 {
+	background-color: #CED2D8;
+	font-family: 'Space Mono', monospace;
+	font-size: 20px;
+	border: 2px solid #000000;
+}
+nav {
+	background-color: #CED2D8;
+	height: 50px;
+	font-family: 'Space Mono', monospace;
+}
+nav ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+nav ul li {
+	float: left;
+	width: 250px;
+	text-align: center;
+}
+nav ul li a {
+	padding: 0;
+	display: block;
+	font-size: 16px;
+	line-height: 48px;
+	color: #000000;
+	text-decoration: none;
+	border: 2px solid #000000;
+}
+nav ul li a:hover {
+    color: #1C5EB7;
+    font-weight: bold;
+
+}
+footer {
+	text-align: left;
+	border-top: 1px solid #000000;
+	background-color: #CED2D8;
+	text-indent: 10px;
+}
+.text {
+    background-color: #CED2D8;
+    border: 2px solid #000000;
+    text-align: center;
+	font-family: 'Space Mono', monospace;
+}
+.text a {
+    color: #000000;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 30px;
+    display: block;
+}
+.text a:hover {
+    color: #1C5EB7;
+}
